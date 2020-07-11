@@ -6,7 +6,7 @@
 
 虽然三本的cs院规模很大，但是由于专业划分比较细，因此很多小众专业课到了写（参考）作业时就会发现无从入手，只能去98、朵朵上求助，或者~~找同学py~~，淡淡的忧伤
 
-![img](样式/06.png)
+![img](./样式/06.png)
 
 本仓库的设立就是希望解决ZJU软工学子的这一烦恼，因此陆陆续续添加了本人专业课的一些大小作业以及同学们的Github入口，如果你觉得它对你有帮助，也欢迎把这个仓库分享给身边的小伙伴哦
 
@@ -16,9 +16,9 @@
 
 #### 友链
 
-- **应承峻学长的Github** <a href="https://github.com/ChenjunYing/CourseMaterialOfSE"> <img style="position: absolute; top: 0; left: 0; border: 0;" src="样式/014.png" width = "30"></a>
-- **求是潮官方Github** <a href="https://github.com/ChenjunYing/CourseMaterialOfSE"> <img style="position: absolute; top: 0; left: 0; border: 0;" src="样式/009.png" width = "30"></a>
-- **待补充......** ![img](样式/009.gif)
+- **应承峻学长的Github** <a href="https://github.com/ChenjunYing/CourseMaterialOfSE"> <img style="position: absolute; top: 0; left: 0; border: 0;" src="./样式/014.png" width = "30"></a>
+- **求是潮官方Github** <a href="https://github.com/ChenjunYing/CourseMaterialOfSE"> <img style="position: absolute; top: 0; left: 0; border: 0;" src="./样式/009.png" width = "30"></a>
+- **待补充......** ![img](./样式/009.gif)
 
 #### 声明
 
