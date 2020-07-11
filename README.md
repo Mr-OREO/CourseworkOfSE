@@ -10,7 +10,7 @@
 
 本仓库的设立就是希望解决ZJU软工学子的这一烦恼，因此陆陆续续添加了本人专业课的一些大小作业以及同学们的Github入口，如果你觉得它对你有帮助，也欢迎把这个仓库分享给身边的小伙伴哦
 
-![image]https://github.com/Mr-OREO/CourseworkOfSE/blob/master/Pattern/08.png)
+![image](https://github.com/Mr-OREO/CourseworkOfSE/blob/master/Pattern/08.png)
 
 最后，给个**star**再走吧~
 
