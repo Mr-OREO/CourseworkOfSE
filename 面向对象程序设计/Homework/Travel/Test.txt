@@ -1,0 +1,54 @@
+/*
+Since the rooms and princess&monster are generated randomly, there's no need for an input data. (every time you play, the program works differently)
+You only need to input the directions and notice the notions made by the program.
+But for convience, here's a simple case of interaction.
+*/
+
+Case 1:
+Welcome to the Castle, brave Prince!!
+
+Welcome to the A0. There are 3 exits: up, left and right.
+Enter your command:up
+
+Welcome to the D1. There are 3 exits: left, right and down.
+Enter your command:left
+
+Oh No, you encounter the Monster !!
+Game Over.
+
+You can try again!
+
+Case 2:
+Welcome to the Castle, brave Prince!!
+
+Welcome to the A0. There are 3 exits: up, left and right.
+Enter your command:up
+
+Welcome to the C1. There are 3 exits: up, left and down.
+Enter your command:up
+
+Welcome to the C2. There are 3 exits: up, left and down.
+Enter your command:left
+
+Welcome to the D3. There are 3 exits: left, right and down.
+Enter your command:left
+
+
+You Find the Princess!!
+Let's get out of here.
+
+Welcome to the D4. There are 3 exits: left, right and down.
+Enter your command:right
+
+Welcome to the D3. There are 3 exits: left, right and down.
+Enter your command:right
+
+Welcome to the C2. There are 3 exits: up, left and down.
+Enter your command:down
+
+Welcome to the C1. There are 3 exits: up, left and down.
+Enter your command:down
+
+You win! What a brave Prince!!
+
+You Have Left the Castle!

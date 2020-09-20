@@ -1,0 +1,7 @@
+3
+4 wzt math 90 chi 90 eng 90 alg 90
+3 ABC math 80 chi 80  jap 80
+4 abc math 70 chi 60 eng 80 alg 80
+
+// Copy the upper lines for input
+// And paste them in CLI

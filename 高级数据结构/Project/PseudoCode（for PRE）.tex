@@ -1,0 +1,107 @@
+\documentclass[UTF8,8pt,twocolumn]{ctexart}  
+
+% Page length commands go here in the preamble  
+\setlength{\oddsidemargin}{-0.25in} % Left margin of 1 in + 0 in = 1 in  
+\setlength{\textwidth}{9in}   % 纸张宽度Right margin of 8.5 in - 1 in - 6.5 in = 1 in  
+\setlength{\topmargin}{-.75in}  % Top margin of 2 in -0.75 in = 1 in  
+\setlength{\textheight}{9.2in}  % Lower margin of 11 in - 9 in - 1 in = 1 in  
+\setlength{\parindent}{0in}  
+
+\makeatletter  
+\newif\if@restonecol  
+\makeatother  
+\let\algorithm\relax  
+\let\endalgorithm\relax 
+\usepackage[linesnumbered,ruled,lined]{algorithm2e}
+\usepackage{algpseudocode}  
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}   
+\renewcommand{\algorithmicensure}{\textbf{Output:}}   
+\SetKwFor{For}{for}{do}{endfor} 
+
+\usepackage{CJKutf8}
+
+\begin{document}  
+	\setcounter{algocf}{3}
+	
+	\begin{algorithm}  
+		
+		\caption{Delete}  
+		\LinesNumbered  
+%		\KwIn{$A$:待重排的元素集合 \newline 
+%			$\alpha$: 对多样性,相关性作折中的权重因子\newline
+%			$rulePass(a,b)$: 两元素是否满足基础打散规则 \newline
+%			$ruleWindow$:规则打散的窗口大小 \newline
+%			$cateDistance(a,b)$: 两元素所属类目之间的距离\newline 
+%			$diversityWindow$: 多样性打散的窗口大小 \newline 
+%			$\{w_n\}$: 计算多样性的权重数列 \newline 
+%			$relevanceScore(a)$: 排序模型计算的相关性得分, 如 ctr 等
+%		}
+%		\KwOut{$A_k$: a subset of $A$ of size k}  
+		\KwIn{$skl$:需搜索的跳跃表指针 \newline
+			$key$:目标索引值
+		}
+	
+		\KwOut{$bool$:成功 / 失败}	
+		
+		\textbf{Initialize} $current=skl->head$\newline
+		$next=NULL$\newline
+		$update[MAXLEVEL]$
+		
+		\For{$i \in [level, 0]$}{
+			\While{更新$next \&\& next->key<key$}{
+				$current$步进
+			}
+			$update[i] <- current$
+			\tcc{存储可能需要更新指针的节点}
+		}
+		
+		\If{$key$不存在}{
+			\Return 0
+		}
+		\Else{
+			\For{$ i \in [0,newlevel]$}{
+				更新$update$指针
+			}
+			free($next$)
+			\tcc{释放该节点内存}
+			\Return 1
+		}
+		
+%		\While{rand()$\%2$}{level++}
+%		\If{$level>MAXLEVEL$}{$level=MAXLEVEL$}
+		
+%		\For{$i \in [1,k]$}{
+%			$candidate=\emptyset$ \newline
+%			$currentMaxRhoScore=0$ \newline
+%			\ForEach {$a \in A-A_i$} {
+%				rulePassFlag=true \newline
+%				\tcc{$A_{ij}$表示集合$A_i$中的第j个元素}
+%				\For{$b \in \{A_{ii},...,A_{ii-ruleWindow} \} $}{
+%					\If {not $rulePass(a,b)$ }{
+%						rulePassFlag=false
+%					}
+%				}
+%				\tcc{两元素是否同一个作者, 同为小姐姐自拍, 同一个商家相关等}
+%				\If{rulePassFlag=true}{
+%					diversityScore=0 \newline
+%					\For{$b \in \{A_{ii},...,A_{ii-diversityWindow} \} $}{
+%						\tcc{考虑一个窗口内的多样性得分时, 远近有别}
+%						$j \gets$ the span between a and b's slots \newline
+%						$diversityScore += w_j * cateDistance(a,b)$
+%					}
+%					$rhoScore=\alpha * diversityScore + (1-\alpha) * relevanceScore(a)$
+%					\If{currentMaxRhoScore<rhoScore}{
+%						currentMaxRhoScore=rhoScore \newline
+%						candidate=a
+%					}
+%				}
+%			}
+%			\eIf{$candidate != \emptyset$}{
+%				$A_i=A_{i-1}\cup \{candidate\}$ \newline
+%			}{
+%				break
+%			}
+%		}
+	\end{algorithm}  
+	
+\end{document}  

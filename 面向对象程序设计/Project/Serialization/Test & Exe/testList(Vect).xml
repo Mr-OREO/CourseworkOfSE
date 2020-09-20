@@ -1,0 +1,12 @@
+<serialization>
+    <a type="std_list">
+        <element type="std_vector" capacity="2">
+            <element type="int32" val="1"/>
+            <element type="int32" val="2"/>
+        </element>
+        <element type="std_vector" capacity="2">
+            <element type="int32" val="3"/>
+            <element type="int32" val="4"/>
+        </element>
+    </a>
+</serialization>

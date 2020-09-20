@@ -1,0 +1,61 @@
+Rubric items: 6
+
+Item 1: 1 point
+
+The cover page must be presented with the title and the date of completion (+ 0.2 pts.).  A complete problem description must be given in Chapter 1 (+0.8 pts.).  Deduct points if:
+
+- the cover page is not complete (-0.2)
+- the introduction is a simple copy + paste of the assignment statement (-0.3)
+- the introduction is not very clear -- in this chapter they are supposed to make it clear WHAT is to be done, besides why they are doing it (-0.1 ~ 0.5)
+- others – please specify in the final comments.
+
+Item 2: 2 points
+
+Chapter 2 is supposed to specify both the parallel (+1 pt.) and the serial (+1 pt.) algorithms.  Deduct (at most 2) points if:
+
+- the description is way too simple (-1)
+- the algorithm specification is not complete –  the parallel algorithm description is missing (-1)
+- the algorithm specification is not complete – the serial algorithm description is missing (-1)
+- not making their algorithm easier to understand than a simple program (-1)
+- only a program + comments, which is not acceptable (-1)
+- others – please specify in the final comments.
+
+
+Item 3: 1 point
+
+The overall style of documentation is supposed to be neat and clear.  Deduct (at most 1) point if:
+
+- the document looks like a patch work (-1)
+- messy – some of the data in the charts and tables are missing (-1)
+- the hand-in is not zipped with proper folders (-1)
+- the hand-in is not complete – some files are missing (-1)
+- others – please specify in the final comments.
+
+Item 4: 3 points
+
+A complete table of testing data must be given in Chapter 3, including testing the impacts of the hardware (+0.5 pt.) the scale of their set of documents (+1 pt.), and setting of Hadoop (+1 pt.).  A case generator program must be given to generate large amount of performance testing data (+0.5 pt.).  Deduct (at most 3) points if:
+
+- the testing results have a problem: some of the tick numbers are less than 10, which means that their answer is not accurate enough (-0.2)
+- the case generator program is missing (-0.5)
+- the testing results are not complete (-0.5~2)
+- others – please specify in the final comments.
+
+Item 5: 5 points
+
+Plots (+2 pts.) and comments on the impacts of the hardware (+1 pt.) the scale of their set of documents (+1 pt.), and setting of Hadoop (+1 pt.) are supposed to be given in Chapter 4.  Deduct points if:
+
+- the plot is missing (-2)
+- the plot is misleading since the x-axis is NOT EQUALLY SPACED (-1)
+- the analysis of the performances is incomplete (-1~3)
+- the analysis does not seem to fit with their testing results (-1)
+- the analysis of the performances is incomplete (-1~3)
+- others – please specify in the final comments.
+
+Item 6: 8 points
+
+A main program (+7 pts.) and a testing program (+1 pt.) must both be presented.  Deduct points if:
+
+- the testing program is missing (-1)
+- some of the programs are not working properly (-1~3)
+- the programs are not well-commented (-8)
+- others – please specify in the final comments.

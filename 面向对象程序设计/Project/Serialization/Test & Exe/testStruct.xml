@@ -1,0 +1,27 @@
+<serialization>
+    <a type="struct basic">
+        <b type="bool" val="true"/>
+        <ch type="char" val="98"/>
+        <d_float type="double" val="3.1415899999999999"/>
+        <f type="float" val="1.41"/>
+        <i type="int32" val="1"/>
+        <l type="std_list">
+            <element type="float" val="1.73"/>
+        </l>
+        <mp type="std_map">
+            <first type="int32" val="10"/>
+            <second type="std_string" val="STL::MAP"/>
+        </mp>
+        <p type="std_pair">
+            <first type="int32" val="7"/>
+            <second type="double" val="2.718"/>
+        </p>
+        <s type="std_set">
+            <element type="int32" val="27"/>
+        </s>
+        <str type="std_string" val="Basic Struct"/>
+        <v type="std_vector" capacity="1">
+            <element type="int32" val="13"/>
+        </v>
+    </a>
+</serialization>

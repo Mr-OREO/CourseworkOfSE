@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>图书管理系统</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" >
+    <link rel="stylesheet" href = "../css/mainui.css">
+</head>
+
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="background-color: #343a40;">
+        <div>
+            <a class="navbar-brand mr-auto mr-lg-0">Book Management System</a>
+        </div>
+    </nav>
+
+    <div class="nav-scroller bg-white shadow-sm">
+        <nav class="nav nav-underline">
+            <a class="nav-link active" href="append.html">Append</a>
+            <a class="nav-link" href="search.php">Search</a>
+            <a class="nav-link" href="borrow.php">Borrow</a>
+            <a class="nav-link" href="return.php">Return</a>
+            <a class="nav-link" href="card.php">Cards</a>
+        </nav>
+    </div>
+
+<!-- append part-->
+    <div class="row justify-content-md-center">
+        <form class="needs-validation" action="../SecondPage/Append.php" method="POST" enctype="multipart/form-data">
+            <div>
+                <h4 class="mb-3 text-light">Append a Book</h4>
+            </div>
+            
+            <!-- bno -->
+            <div class="row">
+                <div class="col-md-5 mb-3">
+                <label class="text-light">Book Number</label>
+                <input type="text" class="form-control" id="bno" name="bno" placeholder="" value="" required>
+                </div>
+            </div>
+
+            <!-- category title -->
+            <div class="row">
+                <div class="col-md-5 mb-3">
+                <label for="category" class="text-light">Category</label>
+                <input type="text" class="form-control" id="category" name="cat" placeholder="" value="" required>
+                </div>
+                <div class="col-md-5 mb-3">
+                <label for="title" class="text-light">Title</label>
+                <input type="text" class="form-control" id="title" name="tit" placeholder="" value="" required>
+                </div>
+            </div>
+    
+            <!-- press author -->
+            <div class="row">
+                <div class="col-md-5 mb-3">
+                <label for="press" class="text-light">Press</label>
+                <input type="text" class="form-control" id="press" name="pre" placeholder="" value="" required>
+                </div>
+                <div class="col-md-5 mb-3">
+                <label for="author" class="text-light">Author</label>
+                <input type="text" class="form-control" id="author" name="aut" placeholder="" value="" required>
+                </div>
+            </div>
+
+            <!-- price year -->
+            <div class="row">
+                <div class="col-md-5 mb-3">
+                <label for="price" class="text-light">Price</label>
+                <input type="text" class="form-control" id="price" name="pri" placeholder="" value="" required>
+                </div>
+                <div class="col-md-5 mb-3">
+                <label for="year" class="text-light">Year</label>
+                <input type="text" class="form-control" id="year" name="yea" placeholder="" value="" required>
+                </div>
+            </div>
+            <div class="col-md-10 mb-3 text-center">
+                <button class="btn btn-primary btn-lg col-4">Append</button>
+            </div>
+
+            <div class="col-md-10 mb-3 text-center">
+                <a class="btn btn-info btn-lg col-4" href="../SecondPage/Append_File.php">Upload File</a>
+            </div>
+
+            <!-- <div class="input-group mb-3 col-md-10">
+                <div class="input-group-prepend">
+                    <button class="btn input-group-text" id="inputGroupFileAddon01">Upload</button>
+                </div>
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="inputGroupFile01" name="file" aria-describedby="inputGroupFileAddon01">
+                    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                </div>
+            </div> -->
+        </form>
+    </div>
+
+    <script src="../js/jquery.js"></script>
+    <script src="../js/mainui.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<serialization>
+    <a type="std_map">
+        <first type="std_string" val="fruit"/>
+        <second type="std_set">
+            <element type="std_string" val="Apple"/>
+            <element type="std_string" val="Banana"/>
+        </second>
+        <first type="std_string" val="meat"/>
+        <second type="std_set">
+            <element type="std_string" val="Beaf"/>
+            <element type="std_string" val="Pork"/>
+        </second>
+    </a>
+</serialization>
