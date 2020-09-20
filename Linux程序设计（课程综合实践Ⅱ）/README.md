@@ -4,4 +4,4 @@
 
 ![img](https://github.com/Mr-OREO/CourseworkOfSE/blob/master/Pattern/06.png)
 
-成绩：92/4.8
+成绩：`92/4.8`
