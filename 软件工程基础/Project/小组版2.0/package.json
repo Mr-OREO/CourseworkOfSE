@@ -11,7 +11,7 @@
     "debug": "~2.6.9",
     "ejs": "~2.6.1",
     "exceljs": "^4.0.1",
-    "express": "~4.16.1",
+    "express": "~4.17.3",
     "http-errors": "~1.6.3",
     "moment": "^2.26.0",
     "morgan": "~1.9.1",
